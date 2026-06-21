@@ -120,36 +120,6 @@ Building scalable mobile applications serving 800K+ users across India & Ethiopi
 
 # 📂 Featured Projects
 
-## 🎓 MAAZTER LMS
-
-Government learning platform serving 200K+ students.
-
-**Tech Stack**
-
-React Native • Firebase • Redux Toolkit • Socket.IO • SCORM • Jest
-
----
-
-## 📚 e-Khool LMS
-
-Offline-first education platform for Assam Government schools.
-
-**Tech Stack**
-
-React Native • WatermelonDB • React Query • Swift • Kotlin
-
----
-
-## 🌍 AAEB School & TVET LMS
-
-Large-scale Ethiopian Government learning platform.
-
-**Tech Stack**
-
-React Native • AWS • Firebase • i18n • Accessibility
-
----
-
 ## 📱 Suya Mobiles
 
 Multi-role e-commerce application with payments and maps integration.
