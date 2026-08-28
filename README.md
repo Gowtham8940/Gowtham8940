@@ -28,7 +28,7 @@ Building scalable mobile applications serving 800K+ users across India & Ethiopi
 
 # 🚀 About Me
 
-- 📱 Senior React Native Developer with 4+ years of experience
+- 📱 Senior React Native Developer with 3.5+ years of experience
 - 👨‍💼 Mobile Team Lead managing teams of up to 4 engineers
 - 🌍 Built government-scale applications serving 800K+ users
 - ⚡ Expert in React Native New Architecture (Fabric & TurboModules)
