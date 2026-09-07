@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Gowtham Jaganathan - Senior React Native Developer">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#070b16"/><stop offset="55%" stop-color="#0b1222"/><stop offset="100%" stop-color="#111a30"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#38bdf8"/><stop offset="50%" stop-color="#818cf8"/><stop offset="100%" stop-color="#c084fc"/>
+  </linearGradient>
+  <linearGradient id="screenbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#111c33"/><stop offset="100%" stop-color="#0a1120"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.07"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glowA" cx="50%" cy="50%"><stop offset="0%" stop-color="#3b82f6" stop-opacity=".40"/><stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="50%" cy="50%"><stop offset="0%" stop-color="#a855f7" stop-opacity=".34"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <clipPath id="screenClip"><rect x="72" y="38" width="132" height="264" rx="18"/></clipPath>
+  <style>
+    .f{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    /* Base state = a complete, correct static banner. Animation only enhances it,
+       so reduced-motion users and non-animating renderers still get a full design. */
+    .scr{opacity:0}
+    .s1,.r1{opacity:1}
+    .pop{transform-box:fill-box;transform-origin:center}
+    .bar{transform-box:fill-box;transform-origin:left center}
+    .row{transform-box:fill-box;transform-origin:center}
+    .r2,.r3{opacity:0}
+    .intro{opacity:1;animation:intro .9s ease-out both}
+    @keyframes intro{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes sc{0%{opacity:0;transform:translateX(12px)}3%,30%{opacity:1;transform:translateX(0)}33%,100%{opacity:0;transform:translateX(-12px)}}
+    @keyframes pop{0%{transform:scale(.3)}3%{transform:scale(1.14)}5%,30%{transform:scale(1)}33%,100%{transform:scale(.85)}}
+    @keyframes rowin{0%{opacity:0;transform:translateX(16px)}4%,30%{opacity:1;transform:translateX(0)}33%,100%{opacity:0}}
+    @keyframes grow{0%{transform:scaleX(0)}5%,30%{transform:scaleX(1)}33%,100%{transform:scaleX(0)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(26px,-18px)}}
+    @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-22px,16px)}}
+    @keyframes sweep{0%{transform:translateX(-150px)}100%{transform:translateX(300px)}}
+    @keyframes blink{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}
+    @keyframes sig{0%,100%{opacity:.35}50%{opacity:1}}
+    .phone{animation:float 6s ease-in-out infinite}
+    .s1{animation:sc 18s linear infinite both}
+    .s2{animation:sc 18s linear infinite both;animation-delay:6s}
+    .s3{animation:sc 18s linear infinite both;animation-delay:12s}
+    .r1{animation:sc 18s linear infinite both}
+    .r2{animation:sc 18s linear infinite both;animation-delay:6s}
+    .r3{animation:sc 18s linear infinite both;animation-delay:12s}
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none !important}
+      .scr,.r2,.r3{opacity:0}
+      .s1,.r1{opacity:1}
+    }
+  </style>
+</defs>
+
+<rect width="1000" height="340" rx="20" fill="url(#bg)"/>
+<g opacity=".85"><ellipse cx="180" cy="90" rx="230" ry="170" fill="url(#glowA)" style="animation:drift 14s ease-in-out infinite"/></g>
+<g opacity=".8"><ellipse cx="820" cy="280" rx="250" ry="180" fill="url(#glowB)" style="animation:drift2 17s ease-in-out infinite"/></g>
+<rect width="1000" height="340" rx="20" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+<!-- ============ PHONE ============ -->
+<g class="phone">
+  <rect x="60" y="26" width="156" height="288" rx="28" fill="#0b1220" stroke="#2a3a5c" stroke-width="1.5"/>
+  <rect x="66" y="32" width="144" height="276" rx="23" fill="#060a14" stroke="#16243d" stroke-width="1"/>
+  <rect x="72" y="38" width="132" height="264" rx="18" fill="url(#screenbg)"/>
+  <rect x="118" y="40" width="40" height="9" rx="4.5" fill="#060a14"/>
+
+  <g clip-path="url(#screenClip)">
+    <!-- status bar -->
+    <text x="82" y="62" class="m" font-size="7" fill="#93a4c4">9:41</text>
+    <g fill="#93a4c4">
+      <rect x="168" y="57" width="2" height="4" rx="1" style="animation:sig 2s ease-in-out infinite"/>
+      <rect x="172" y="55" width="2" height="6" rx="1" style="animation:sig 2s ease-in-out infinite;animation-delay:.2s"/>
+      <rect x="176" y="53" width="2" height="8" rx="1" style="animation:sig 2s ease-in-out infinite;animation-delay:.4s"/>
+      <rect x="182" y="54" width="11" height="6" rx="2" fill="none" stroke="#93a4c4" stroke-width="1"/>
+      <rect x="183.5" y="55.5" width="7" height="3" rx="1"/>
+    </g>
+
+    <!-- SCREEN 1 : HOME -->
+    <g class="scr s1">
+      <text x="84" y="80" class="f" font-size="8" font-weight="600" fill="#e6edf7">Home</text>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.1s"><rect x="84" y="96" width="28" height="28" rx="9" fill="#61dafb" opacity=".18" stroke="#61dafb" stroke-width="1"/><text x="98" y="114" class="f" font-size="10" font-weight="700" fill="#61dafb" text-anchor="middle">RN</text></g>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.2s"><rect x="124" y="96" width="28" height="28" rx="9" fill="#3178c6" opacity=".22" stroke="#3178c6" stroke-width="1"/><text x="138" y="114" class="f" font-size="10" font-weight="700" fill="#7cc0ff" text-anchor="middle">TS</text></g>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.3s"><rect x="164" y="96" width="28" height="28" rx="9" fill="#7f52ff" opacity=".22" stroke="#7f52ff" stroke-width="1"/><text x="178" y="114" class="f" font-size="9" font-weight="700" fill="#b79cff" text-anchor="middle">Kt</text></g>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.4s"><rect x="84" y="132" width="28" height="28" rx="9" fill="#fa7343" opacity=".2" stroke="#fa7343" stroke-width="1"/><text x="98" y="150" class="f" font-size="9" font-weight="700" fill="#ff9a66" text-anchor="middle">Sw</text></g>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.5s"><rect x="124" y="132" width="28" height="28" rx="9" fill="#ffca28" opacity=".18" stroke="#ffca28" stroke-width="1"/><text x="138" y="150" class="f" font-size="9" font-weight="700" fill="#ffd75e" text-anchor="middle">Fb</text></g>
+      <g class="pop" style="animation:pop 18s linear infinite both;animation-delay:.6s"><rect x="164" y="132" width="28" height="28" rx="9" fill="#10b981" opacity=".2" stroke="#10b981" stroke-width="1"/><text x="178" y="150" class="f" font-size="9" font-weight="700" fill="#4fe0ab" text-anchor="middle">AI</text></g>
+      <g class="row" style="animation:rowin 18s linear infinite both;animation-delay:.8s">
+        <rect x="80" y="172" width="116" height="38" rx="11" fill="#16243d" stroke="#24365c" stroke-width="1"/>
+        <circle cx="94" cy="187" r="7" fill="#38bdf8" opacity=".25"/><text x="94" y="190" class="f" font-size="7" fill="#7dd3fc" text-anchor="middle">1</text>
+        <text x="107" y="186" class="f" font-size="6.5" font-weight="600" fill="#e6edf7">New Architecture</text>
+        <text x="107" y="197" class="f" font-size="5.5" fill="#7d8da8">Fabric + TurboModules</text>
+      </g>
+    </g>
+
+    <!-- SCREEN 2 : PROJECTS -->
+    <g class="scr s2">
+      <text x="84" y="80" class="f" font-size="8" font-weight="600" fill="#e6edf7">Projects</text>
+      <g class="row" style="animation:rowin 18s linear infinite both;animation-delay:6.1s">
+        <rect x="80" y="92" width="116" height="34" rx="10" fill="#16243d" stroke="#24365c"/>
+        <circle cx="93" cy="109" r="5" fill="#38bdf8"/>
+        <text x="104" y="106" class="f" font-size="6.5" font-weight="600" fill="#e6edf7">Pen Fight</text>
+        <text x="104" y="116" class="f" font-size="5.5" fill="#7d8da8">Skia + worklets</text>
+      </g>
+      <g class="row" style="animation:rowin 18s linear infinite both;animation-delay:6.25s">
+        <rect x="80" y="132" width="116" height="34" rx="10" fill="#16243d" stroke="#24365c"/>
+        <circle cx="93" cy="149" r="5" fill="#a78bfa"/>
+        <text x="104" y="146" class="f" font-size="6.5" font-weight="600" fill="#e6edf7">Audio Gen</text>
+        <text x="104" y="156" class="f" font-size="5.5" fill="#7d8da8">local TTS</text>
+      </g>
+      <g class="row" style="animation:rowin 18s linear infinite both;animation-delay:6.4s">
+        <rect x="80" y="172" width="116" height="34" rx="10" fill="#16243d" stroke="#24365c"/>
+        <circle cx="93" cy="189" r="5" fill="#34d399"/>
+        <text x="104" y="186" class="f" font-size="6.5" font-weight="600" fill="#e6edf7">Aqua Mart</text>
+        <text x="104" y="196" class="f" font-size="5.5" fill="#7d8da8">Vite + Tailwind</text>
+      </g>
+    </g>
+
+    <!-- SCREEN 3 : STATS -->
+    <g class="scr s3">
+      <text x="84" y="80" class="f" font-size="8" font-weight="600" fill="#e6edf7">Impact</text>
+      <text x="84" y="108" class="f" font-size="20" font-weight="800" fill="url(#accent)">800K+</text>
+      <text x="84" y="119" class="f" font-size="5.5" fill="#7d8da8">users served</text>
+      <g>
+        <text x="84" y="140" class="f" font-size="5.5" fill="#93a4c4">React Native</text>
+        <rect x="84" y="144" width="108" height="5" rx="2.5" fill="#16243d"/>
+        <rect class="bar" x="84" y="144" width="99" height="5" rx="2.5" fill="url(#accent)" style="animation:grow 18s linear infinite both;animation-delay:12.2s"/>
+        <text x="84" y="162" class="f" font-size="5.5" fill="#93a4c4">TypeScript</text>
+        <rect x="84" y="166" width="108" height="5" rx="2.5" fill="#16243d"/>
+        <rect class="bar" x="84" y="166" width="84" height="5" rx="2.5" fill="url(#accent)" style="animation:grow 18s linear infinite both;animation-delay:12.35s"/>
+        <text x="84" y="184" class="f" font-size="5.5" fill="#93a4c4">Kotlin</text>
+        <rect x="84" y="188" width="108" height="5" rx="2.5" fill="#16243d"/>
+        <rect class="bar" x="84" y="188" width="68" height="5" rx="2.5" fill="url(#accent)" style="animation:grow 18s linear infinite both;animation-delay:12.5s"/>
+        <text x="84" y="206" class="f" font-size="5.5" fill="#93a4c4">Swift</text>
+        <rect x="84" y="210" width="108" height="5" rx="2.5" fill="#16243d"/>
+        <rect class="bar" x="84" y="210" width="60" height="5" rx="2.5" fill="url(#accent)" style="animation:grow 18s linear infinite both;animation-delay:12.65s"/>
+      </g>
+    </g>
+
+    <!-- dock -->
+    <rect x="78" y="252" width="120" height="38" rx="14" fill="#16243d" opacity=".65"/>
+    <rect x="86" y="260" width="22" height="22" rx="7" fill="#38bdf8" opacity=".55"/>
+    <rect x="114" y="260" width="22" height="22" rx="7" fill="#a78bfa" opacity=".55"/>
+    <rect x="142" y="260" width="22" height="22" rx="7" fill="#34d399" opacity=".55"/>
+    <rect x="170" y="260" width="22" height="22" rx="7" fill="#f472b6" opacity=".55"/>
+    <rect x="112" y="296" width="52" height="3" rx="1.5" fill="#33456b"/>
+    <rect x="-40" y="38" width="60" height="264" fill="url(#shine)" style="animation:sweep 7s ease-in-out infinite"/>
+  </g>
+</g>
+
+<!-- ============ RIGHT SIDE ============ -->
+<g class="intro" style="animation-delay:.05s">
+  <rect x="286" y="62" width="9" height="9" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="304" y="70" class="m" font-size="10" letter-spacing="3.4" fill="#5eead4">MOBILE ENGINEER</text>
+</g>
+<text x="286" y="126" class="f intro" font-size="48" font-weight="800" fill="#f1f6fd" style="animation-delay:.15s">Gowtham Jaganathan</text>
+<rect x="286" y="142" width="120" height="4" rx="2" fill="url(#accent)" class="intro" style="animation-delay:.3s"/>
+
+<g>
+  <text x="286" y="180" class="f r1" font-size="19" font-weight="600" fill="#9fb4d4">Senior React Native Developer</text>
+  <text x="286" y="180" class="f r2" font-size="19" font-weight="600" fill="#9fb4d4">Mobile Team Lead</text>
+  <text x="286" y="180" class="f r3" font-size="19" font-weight="600" fill="#9fb4d4">Android &amp; iOS Engineer</text>
+</g>
+
+<g class="intro" style="animation-delay:.45s">
+  <text x="286" y="212" class="f" font-size="12.5" fill="#7d8da8">Offline-first architecture · native modules · encrypted media</text>
+</g>
+
+<g class="intro" style="animation-delay:.6s">
+  <g><rect x="286" y="232" width="118" height="27" rx="13.5" fill="#0f2540" stroke="#1d4d78"/><text x="345" y="249" class="f" font-size="10.5" font-weight="600" fill="#7dd3fc" text-anchor="middle">React Native</text></g>
+  <g><rect x="412" y="232" width="96" height="27" rx="13.5" fill="#1a1a3d" stroke="#3b3b7a"/><text x="460" y="249" class="f" font-size="10.5" font-weight="600" fill="#a5b4fc" text-anchor="middle">TypeScript</text></g>
+  <g><rect x="516" y="232" width="74" height="27" rx="13.5" fill="#241a3d" stroke="#4c3a7a"/><text x="553" y="249" class="f" font-size="10.5" font-weight="600" fill="#c4b5fd" text-anchor="middle">Kotlin</text></g>
+  <g><rect x="598" y="232" width="68" height="27" rx="13.5" fill="#3d2416" stroke="#7a4a2c"/><text x="632" y="249" class="f" font-size="10.5" font-weight="600" fill="#fdba74" text-anchor="middle">Swift</text></g>
+  <g><rect x="674" y="232" width="66" height="27" rx="13.5" fill="#12321f" stroke="#2c7a4a"/><text x="707" y="249" class="f" font-size="10.5" font-weight="600" fill="#6ee7b7" text-anchor="middle">AI/ML</text></g>
+</g>
+
+<g class="intro" style="animation-delay:.75s">
+  <line x1="286" y1="280" x2="900" y2="280" stroke="#1e293b" stroke-width="1"/>
+  <text x="286" y="306" class="f" font-size="17" font-weight="800" fill="#f1f6fd">800K+</text>
+  <text x="286" y="320" class="f" font-size="9" fill="#6b7c99">USERS</text>
+  <text x="376" y="306" class="f" font-size="17" font-weight="800" fill="#f1f6fd">15+</text>
+  <text x="376" y="320" class="f" font-size="9" fill="#6b7c99">APPS SHIPPED</text>
+  <text x="496" y="306" class="f" font-size="17" font-weight="800" fill="#f1f6fd">3.6y</text>
+  <text x="496" y="320" class="f" font-size="9" fill="#6b7c99">EXPERIENCE</text>
+  <text x="606" y="306" class="f" font-size="17" font-weight="800" fill="#f1f6fd">2</text>
+  <text x="606" y="320" class="f" font-size="9" fill="#6b7c99">COUNTRIES</text>
+</g>
+</svg>
