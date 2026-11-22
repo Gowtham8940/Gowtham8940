@@ -4,7 +4,7 @@
 </picture>
 
 <p>
-  <a href="https://gowtham-portfolio-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1F6B4A?style=flat&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://gowthamdev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1F6B4A?style=flat&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/gowthamjagan"><img src="https://img.shields.io/badge/LinkedIn-101114?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://medium.com/@gowthamjaganthan"><img src="https://img.shields.io/badge/Medium-101114?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://www.youtube.com/@learn_with_gowtham"><img src="https://img.shields.io/badge/YouTube-101114?style=flat&logo=youtube&logoColor=white" alt="YouTube" /></a>
@@ -110,7 +110,7 @@ Vitest and Playwright run on every pull request.
 </tr>
 </table>
 
-More on the [portfolio](https://gowtham-portfolio-nu.vercel.app) and the
+More on the [portfolio](https://gowthamdev.vercel.app) and the
 [Google Play listing](https://play.google.com/store/apps/dev?id=8170755285088488138).
 
 ## Experience
