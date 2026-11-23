@@ -140,11 +140,11 @@ More on the [portfolio](https://gowthamdev.vercel.app) and the
 **On [Medium](https://medium.com/@gowthamjaganthan)**
 
 <!-- BLOG-POST-LIST:START -->
-- [Relighting a Photo, and My Live Selfie Camera, with One Skia Shader in React Native](https://medium.com/@gowthamjaganthan/relighting-a-photo-and-my-live-selfie-camera-with-one-skia-shader-in-react-native-0258b1b73d4a)
-- [I Turned My Bio Into a Statue of Me: A Letters-to-Portrait Animation with React Native Skia](https://medium.com/@gowthamjaganthan/i-turned-my-bio-into-a-statue-of-me-a-letters-to-portrait-animation-with-react-native-skia-d22b815bc726)
-- [How I Automated My LinkedIn Posts with Claude: The Complete Setup, My First Post, and Every Mistake…](https://medium.com/@gowthamjaganthan/how-i-automated-my-linkedin-posts-with-claude-the-complete-setup-my-first-post-and-every-mistake-0c1411319fc9)
-- [Claude’s Hidden “Reset for Free” Button: How to Restore Your Session and Weekly Limits Instantly](https://medium.com/@gowthamjaganthan/claudes-hidden-reset-for-free-button-how-to-restore-your-session-and-weekly-limits-instantly-d1e293faac3b)
-- [How I Cut My App’s Download Size by 44% Without Removing a Single Feature](https://medium.com/@gowthamjaganthan/how-i-cut-my-apps-download-size-by-44-without-removing-a-single-feature-861c0f31984b)
+- [Relighting a Photo, and My Live Selfie Camera, with One Skia Shader in React Native](https://medium.com/@gowthamjaganthan/relighting-a-photo-and-my-live-selfie-camera-with-one-skia-shader-in-react-native-0258b1b73d4a?source=rss-7c4883f81036------2)
+- [I Turned My Bio Into a Statue of Me: A Letters-to-Portrait Animation with React Native Skia](https://medium.com/@gowthamjaganthan/i-turned-my-bio-into-a-statue-of-me-a-letters-to-portrait-animation-with-react-native-skia-d22b815bc726?source=rss-7c4883f81036------2)
+- [How I Automated My LinkedIn Posts with Claude: The Complete Setup, My First Post, and Every Mistake…](https://medium.com/@gowthamjaganthan/how-i-automated-my-linkedin-posts-with-claude-the-complete-setup-my-first-post-and-every-mistake-0c1411319fc9?source=rss-7c4883f81036------2)
+- [Claude’s Hidden “Reset for Free” Button: How to Restore Your Session and Weekly Limits Instantly](https://medium.com/@gowthamjaganthan/claudes-hidden-reset-for-free-button-how-to-restore-your-session-and-weekly-limits-instantly-d1e293faac3b?source=rss-7c4883f81036------2)
+- [How I Cut My App’s Download Size by 44% Without Removing a Single Feature](https://medium.com/@gowthamjaganthan/how-i-cut-my-apps-download-size-by-44-without-removing-a-single-feature-861c0f31984b?source=rss-7c4883f81036------2)
 <!-- BLOG-POST-LIST:END -->
 
 </td>
