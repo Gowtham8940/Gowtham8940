@@ -154,9 +154,9 @@ More on the [portfolio](https://gowthamdev.vercel.app) and the
 
 <!-- YOUTUBE-LIST:START -->
 - [Pen Fight: Winter Fest gameplay](https://www.youtube.com/shorts/n3a9LaMgvD4)
-- [I Made a 2D Photo Look 3D | React Native + Skia](https://www.youtube.com/shorts/U782CkaAaLo)
-- [I recreated the “text turns into a statue”, built out of 4,800 letters of my own bio](https://www.youtube.com/shorts/wDdwSFc20cM)
-- [I Built the Pen Fight Game in React Native (Skia + 60 FPS Physics) — Part 2](https://www.youtube.com/watch?v=IxJ5YlnsFgE)
+- [I Made a 2D Photo Look 3D 🤯 | React Native + Skia](https://www.youtube.com/shorts/U782CkaAaLo)
+- [I recreated the “text turns into a statue”, built out of 4,800 letters of my own bio.. 🤯](https://www.youtube.com/shorts/wDdwSFc20cM)
+- [I Built the Pen Fight Game in React Native &lpar;Skia + 60 FPS Physics&rpar; — Android &amp; iOS Part -2](https://www.youtube.com/watch?v=IxJ5YlnsFgE)
 <!-- YOUTUBE-LIST:END -->
 
 </td>
